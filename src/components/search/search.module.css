@@ -1,0 +1,56 @@
+.inputWrapper {
+  display: flex;
+  position: relative;
+}
+.input {
+  flex: 1 1;
+  height: 100%;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 12px 10px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  outline-width: 0;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 7px;
+  right: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  font-weight: 700;
+  color: #008ec4;
+}
+.subheader {
+  display: flex;
+  justify-content: space-around;
+  flex: 0 20%;
+  font-size: 14px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  width: 65px;
+}
+.pagination button {
+  color: #555;
+}
+.pagination button:disabled {
+  color: #aaa;
+  cursor: not-allowed;
+}

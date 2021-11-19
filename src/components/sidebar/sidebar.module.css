@@ -1,0 +1,10 @@
+.menu {
+  list-style-type: none;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.menu li {
+  padding: 5px 0;
+  margin: 5px 0;
+}
